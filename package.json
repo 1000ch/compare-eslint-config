@@ -1,0 +1,37 @@
+{
+  "name": "compare-eslint-config",
+  "version": "0.0.0",
+  "description": "Compare ESLint config",
+  "main": "index.js",
+  "scripts": {
+    "test": "eslint ."
+  },
+  "bin": {
+    "compare-eslint-config": "cli.js"
+  },
+  "repository": "1000ch/compare-eslint-config",
+  "keywords": [
+    "eslint"
+  ],
+  "author": "1000ch",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/1000ch/compare-eslint-config/issues"
+  },
+  "homepage": "https://github.com/1000ch/compare-eslint-config#readme",
+  "dependencies": {
+    "cli-table": "^0.3.1",
+    "deep-diff": "^0.3.3",
+    "eslint": "^2.7.0",
+    "install-package": "^0.1.0",
+    "minimist": "^1.2.0",
+    "uninstall-package": "^0.1.0"
+  },
+  "devDependencies": {
+    "@1000ch/eslint-config": "^0.4.0",
+    "eslint": "^2.7.0"
+  },
+  "eslintConfig": {
+    "extends": "@1000ch"
+  }
+}
